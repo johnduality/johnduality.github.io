@@ -23,7 +23,9 @@ a:hover { color: var(--blue-deep); }
 
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 26px; }
 .wrap-narrow { max-width: 760px; margin: 0 auto; padding: 0 26px; }
-.home { padding-top: 26px; padding-bottom: 72px; }
+/* padding-top matches the .intro top margin on the subpage, so the first
+   heading lands at the same height on both pages */
+.home { padding-top: 30px; padding-bottom: 72px; }
 
 /* Header — matches the Insight Retreats subpage */
 .site-header {
@@ -43,7 +45,7 @@ a:hover { color: var(--blue-deep); }
 /* Matches the .intro rule on the Insight Retreats subpage. Note it uses the
    body serif (Georgia), not a display face. */
 .home h1 {
-  margin: 30px auto 22px;
+  margin: 0 auto 22px;
   text-align: center;
   font-size: 27px;
   line-height: 1.6;
